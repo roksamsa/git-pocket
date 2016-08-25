@@ -123,14 +123,14 @@ Reference: https://git-scm.com/docs/git-push
 
 ## $remote
 
-- Remote connections are like bookmarks named after remote repos
+- Remotes are named connections to remote repository (like bookmarks)
 - `git clone` automatically creates a remote connection usually called `origin`
 
 | Command     | Options     | Description |
 |-------------|-------------|---------------------------------------------------------|
-| `git remote` | `-v`                         | List remote repository endpoints |
-| `git branch` | `-r`                         | List remote repository branches |
-| `git remote` | `add <name> <url>`           | Create namespaced connection to a remote repository |
+| `git remote` | `-v`                         | List remote verbose |
+| `git branch` | `-r`                         | List remote branches |
+| `git remote` | `add <name> <url>`           | Create named connection to a remote repository |
 | `git remote` | `rename <oldname> <newname>` | Rename connection |
 | `git remote` | `rm <name>`                  | Remove connection |
 
