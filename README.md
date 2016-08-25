@@ -50,9 +50,8 @@ Make git rember your credentials from 2nd time you push/pull and on: `$ git conf
 | `git config` | `--global --list`    | List global variables |
 | `git config` | `--local --list`     | List local variables |
 | `git config` | `--list`     | List local variables plus inherited from global |
-| `git config` | `--global user.name "cooperblack"`    | Set global username |
-| `git config` | `--global user.email "cooper@black.com"`    | Set global user email |
-| `git remote` | `add origin <url>`| Set remote origin |
+| `git config` | `--global user.name "<name>"`    | Set variable example |
+| `git config` | `remote.origin.url "<giturl>"`    | Set variable example |
 | `git ls-tree` | `-r <branch> --name-only`  | List files being tracked |
 
 Reference: https://git-scm.com/docs/git-config
