@@ -23,26 +23,7 @@
   - great team collaboration tools
   - great built-in deploy system (extra brownie points for deploy pipelines)
 
-## TOC (table of contents)
-
-**Use “$” symbol to search thru the document**
-
-- [$setup](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#setup)
-- [$gibberish](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#gibberish)
-- [$getting-started](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#getting-started)
-- [$clone](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#clone)
-- [$submodule](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#submodule)
-- [$commit](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#commit)
-- [$push](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#push)
-- [$remote](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#remote)
-- [$fetch-pull](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#fetch-pull)
-- [$branch](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#branch)
-- [$status](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#status)
-- [$diff](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#diff)
-- [$tag](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#tag)
-- [$update](https://github.com/heyallan/git-pocket/blob/gh-pages/README.md#update)
-
-## $setup
+## $getting-started
 
 Set Up Git guide: https://help.github.com/articles/set-up-git/
 
@@ -62,19 +43,25 @@ Set Up Git guide: https://help.github.com/articles/set-up-git/
 Make git rember your credentials from 2nd time you push/pull and on: `$ git config credential.helper cache`
 
 
-## $getting-started
+## $config
 
 | Command | Options | Description |
 |------------|--------------|---------------------------------------------------------|
-| `git config` | `--global user.name "Cooper Black"`    | Set global user name |
+| `git config` | `--global --list`    | List global variables |
+| `git config` | `--local --list`     | List local variables |
+| `git config` | `--list`     | List local variables plus inherited from global |
+| `git config` | `--global user.name "cooperblack"`    | Set global username |
 | `git config` | `--global user.email "cooper@black.com"`    | Set global user email |
-| `git config` | `--list`    | Display configuration |
-| `git config` | `--global --list`  | Display global configuration |
-| `git init` | | Make current directory a git repository |
 | `git remote` | `add origin <url>`| Set remote origin |
 | `git ls-tree` | `-r <branch> --name-only`  | List files being tracked |
 
 Reference: https://git-scm.com/docs/git-config
+
+## $init
+
+| Command | Options | Description |
+|------------|--------------|---------------------------------------------------------|
+| `git init` |              | Make current directory a git repository |
 
 ## $clone
 
