@@ -123,8 +123,8 @@ Reference: https://git-scm.com/docs/git-push
 
 ## $remote
 
-- Remotes are named connections to remote repository (like bookmarks)
-- `git clone` automatically creates a remote connection usually called `origin`
+- A remote connection is a named bookmark to the remote repository
+- The command `git clone` automatically creates a remote connection (usually named `origin`)
 
 | Command     | Options     | Description |
 |-------------|-------------|---------------------------------------------------------|
@@ -136,7 +136,7 @@ Reference: https://git-scm.com/docs/git-push
 
 Reference: https://git-scm.com/docs/git-remote
 
-**Remove remote origin:**
+**Remove remote connection:**
 
 ```shell
 # Remove `origin` settings from .git/config
