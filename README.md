@@ -14,14 +14,14 @@
   - great community for open source
 - [beanstalkapp.com](http://beanstalkapp.com/)
   - free for 1 user + 1 repo
-  - great built-in deploy system
+  - built-in deploy system
 - [bitbucket.org](https://bitbucket.org/)
-  - free for teams under 5 users
-  - great documentation
+  - free for teams under 5 users (public or private)
+  - great documentation for beginners
 - [buddy.works](buddy.works)
   - free for 1 repo + unlimited users
-  - great team collaboration tools
-  - great built-in deploy system (extra brownie points for deploy pipelines)
+  - great collaboration tools
+  - built-in deploy system (extra brownie points for pipelines)
 
 ## $getting-started
 
