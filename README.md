@@ -93,11 +93,11 @@ Reference: https://git-scm.com/docs/git-submodule
 
 | Command     | Options     | Description |
 |-------------|-------------|---------------------------------------------------------|
-| `git add`         | `<filename>`   |  Add files to staging area  |
-| `git commit`      | `-m "<title>" -m "<body>"`  |  Commit with message (includes "added" files only) |
-| `git rm`          | `<filenama>`   |  Remove files from the working tree and from the index |
-|                   | `-f`                |  Force deletion of files from disk |
-| `git rm` | `-r --cached <filename>`  | Untrack file (without deleting) |
+| `git add`     | `[<filename> | --all]`   |  Add files (or all files) to staging area  |
+| `git commit`  | `-m "<title>" -m "<body>"`  |  Commit with message |
+| `git rm`      | `<filename>`    |  Remove file from the working tree and from the index |
+| `git rm`      | `-f <filenama>` |  Force deletion of files from disk |
+| `git rm`      | `-r --cached <filename>`  | Untrack file (without deleting) |
 
 Reference: https://git-scm.com/docs/git-commit
 
