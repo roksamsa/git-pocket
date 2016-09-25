@@ -208,9 +208,9 @@ $ git diff --stat a649900 24bdd58 ./path/README.md
 | Command     | Options     | Description |
 |-------------|-------------|---------------------------------------------------------|
 | `git tag`           |                   | List tags |
-| `git tag`           | `<v1.0.0>`        | Create tag, from latest commit, lightweight |
-| `git tag`           | `-a <v1.0.0> -m "<msg>"` | Create tag, with `--annotate`, from latest commit |
-| `git tag`           | `-a <v1.0.0> -m "<msg>" <SHA-1>` | Create tag, with `--annotate`, from specific commit |
+| `git tag`           | `<v1.0.0>`        | Create tag without annotation from latest commit |
+| `git tag`           | `-a <v1.0.0> -m "<msg>"` | Create tag with `--annotate` from latest commit |
+| `git tag`           | `-a <v1.0.0> -m "<msg>" <SHA-1>` | Create tag with `--annotate` from specific commit |
 | `git tag`           | `-d  <v1.1.0>`    | `--delete` tag |
 | `git show`          | `<v1.0.0>`        | Show tag data and message |
 | `git checkout`      | `<v1.0.0>`        | Switch to specific point tag (not editable) |
