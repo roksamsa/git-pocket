@@ -217,4 +217,11 @@ $ git diff --stat a649900 24bdd58 ./path/README.md
 | `git push`          | `<remote> <tag>`  | Push specific tag to `<remote>` (recommended) |
 | `git push`          | `<remote> --tags` | Push all tags to `<remote>` (only if necessary) |
 
+**Annotate and old tag**
+
+```bash
+$ git tag -a -f <0.0.0> <0.0.0>
+$ git push --force origin <tagname>
+```
+
 Reference: https://git-scm.com/docs/git-tag
