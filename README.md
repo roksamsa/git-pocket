@@ -220,7 +220,7 @@ $ git diff --stat a649900 24bdd58 ./path/README.md
 **Annotate and old tag**
 
 ```bash
-$ git tag -a -f <0.0.0> <0.0.0>
+$ git tag -a -f <0.0.0> <0.0.0> -m "<message>"
 $ git push --force origin <tagname>
 ```
 
