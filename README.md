@@ -117,7 +117,7 @@ $ git add .
 |-------------|-------------|---------------------------------------------------------|
 | `git push`    | `<remotename> <branchname>`     | Push branch to remote |
 | `git push`    | `<remotename> --all`            | Push all branches to remote |
-| `git push`    | `--d <remotename> <branchname>` | `--delete` remote branch |
+| `git push`    | `-d <remotename> <branchname>` | `--delete` remote branch |
 
 Reference: https://git-scm.com/docs/git-push
 
